@@ -8,6 +8,10 @@ public class AguaMineral extends Bebidas{
 		this.origen = origen;
 	}
 
-	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString() + origen;
+	}
 
 }
