@@ -13,4 +13,11 @@ public class Identificador {
 	public int getIdentificador() {
 		return identificador;
 	}
+
+	@Override
+	public String toString() {
+		return "" + getIdentificador();
+	}
+	
+	
 }
