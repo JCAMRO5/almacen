@@ -10,8 +10,8 @@ public class AguaMineral extends Bebidas{
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return super.toString() + origen;
+		return "AguaMineral [origen=" + origen + ", getIdentificador()=" + getIdentificador() + ", getCantidadLitros()="
+				+ getCantidadLitros() + ", getPrecio()=" + getPrecio() + ", getMarca()=" + getMarca() + "]";
 	}
 
 }

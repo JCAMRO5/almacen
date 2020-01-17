@@ -23,6 +23,8 @@ public class AlmacenMain {
 		System.out.println(estanteriaBebidas);
 		
 		
+	
+		
 	}
 	
 

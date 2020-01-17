@@ -12,7 +12,7 @@ public class BebidaAzucarada extends Bebidas {
 	}
 
 	public double getPorcentajeAzucar() {
-		return porcentajeAzucar;
+		return this.porcentajeAzucar;
 	}
 
 	public void setPorcentajeAzucar(double porcentajeAzucar) {
@@ -20,10 +20,10 @@ public class BebidaAzucarada extends Bebidas {
 	}
 
 	public boolean isPromocion() {
-		return promocion;
+		return this.promocion;
 	}
 
-	public void setPromocion(boolean promocion) {
+	private void setPromocion(boolean promocion) {
 		this.promocion = promocion;
 	}
 
@@ -35,5 +35,11 @@ public class BebidaAzucarada extends Bebidas {
 		}
 		return super.getPrecio();
 	}
+
+	@Override
+	public String toString() {
+		return "BebidaAzucarada [porcentajeAzucar=" + porcentajeAzucar + ", promocion=" + promocion + "]";
+	}
+	
 
 }
